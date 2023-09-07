@@ -20,16 +20,16 @@ function Navbar() {
         <button className="btn">Sign In</button>
         <ul className={click ? "nav-menu" : "nav-menu active"}>
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">Search</a>
+            <a href="/">Search</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="/">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="/">Contact</a>
           </li>
         </ul>
         <div className="hamburger">
